@@ -1,0 +1,41 @@
+zomato-backend/
+├── config/
+│   ├── settings.py
+│   └── constants.py
+├── core/
+│   ├── __init__.py
+│   ├── exceptions.py
+│   └── utilities.py
+├── modules/
+│   ├── user_management/
+│   ├── restaurant_management/
+│   ├── order_processing/
+│   ├── delivery_management/
+│   ├── payment_processing/
+│   ├── analytics/
+│   ├── notification_service/
+│   ├── recommendation_engine/
+│   ├── inventory_management/
+│   ├── loyalty_program/
+│   ├── review_rating/
+│   ├── search_service/
+│   ├── discount_management/
+│   ├── geo_service/
+│   ├── fraud_detection/
+│   ├── admin_console/
+│   ├── reporting/
+│   ├── cache_service/
+│   └── api_gateway/
+├── data/
+│   ├── users.json
+│   ├── restaurants.json
+│   ├── orders.json
+│   └── ...
+├── logs/
+│   ├── app.log
+│   └── error.log
+├── tests/
+│   ├── unit/
+│   └── integration/
+├── main.py
+└── requirements.txt
